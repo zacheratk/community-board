@@ -1,0 +1,17 @@
+* {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: repeating-linear-gradient(
+  -45deg,
+  #a7c957,
+  #a7c957 10px,
+  #6a994e 10px,
+  #6a994e 20px
+);
+}

@@ -1,0 +1,35 @@
+.main {
+  background-color: rgba(0, 0, 0, 50%);
+  padding: 2rem 1rem;
+  margin: 0 auto;
+  width: 70vw;
+  min-height: 90vh;
+  color: #f2e8cf;
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 3rem;
+}
+
+footer {
+  background-color: #386641;
+  bottom: 0;
+  padding: 2rem;
+  color: #f2e8cf;
+  width: 100%;
+}
+
+footer a {
+  color: #f2e8cf;
+}
+
+@media (max-width:600px) {
+  .main {
+    width: 100vw;
+  }
+}
